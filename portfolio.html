@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css" rel="stylesheet">
+    <link href="./css/main.min.css" rel="stylesheet">
+    <title>portfolio</title>
+</head>
+<body>
+<header class="head">
+    <div class="container head-container">
+        <nav class="head-container__nav-list">
+            <div class="mobile">
+                <a class="head-container__logo" href="./index.html" lang="en">
+                    Web<span class="studio">Studio</span>
+                </a>
+                <button type="button" class="menu-button" data-menu-button>
+                    <svg class="button-icon" width="40" height="40" aria-label="кнопка мобильного меню" aria-expanded="false"
+                        aria-controls="menu-container">
+                        <use class="icon-close" href="./images/icons.svg#mobile-menu-icon"></use>
+                        <use class="icon-menu" href="./images/icons.svg#mobile-close"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="menu-container" id="menu-container" data-menu>
+                <ul class="menu-container__nav">
+                    <li class="nav-link"><a href="./index.html" class="navigation-link">Студия</a></li>
+                    <li class="nav-link"><a href="./portfolio.html" class="navigation-link--current">Портфолио</a></li>
+                    <li class="nav-link"><a href="./" class="navigation-link">Контакты</a></li>
+                </ul>
+
+
+                <ul class="menu-container__mobile-contact-list">
+                    <li><a class="tel" href="tel:+380961111111">
+                            +38 096 111 11 11</a></li>
+                    <li><a class="mail" href="mailto:info@devstudio.com">
+                            info@devstudio.com</a>
+                    </li>
+                </ul>
+                <ul class="menu-container__socials">
+                    <li>
+                        <a href="index.html">Instagramm</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Twitter</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Facebook</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Linkedln</a>
+                    </li>
+                </ul>
+            </div>
+            <ul class="menu-container__contact-list">
+                <li><a class="mail" href="mailto:info@devstudio.com">
+                        <svg class="mail-icon" width="16" height="12">
+                            <use href="./images/icons.svg#icon-mail"></use>
+                        </svg> info@devstudio.com</a>
+                </li>
+                <li><a class="tel" href="tel:+380961111111">
+                        <svg class="tel-icon" width="10" height="16">
+                            <use href="./images/icons.svg#icon-tel"></use>
+                        </svg>+38 096 111 11 11</a></li>
+            </ul>
+        </nav>
+    </div>
+
+</header>
+    <main>
+        <h1></h1>
+        <section class="section">
+            <div class="container">
+            <ul class="menu-buttons">
+                <li class="menu-buttons__menu-item">
+                    <button class="current" type="button">Все</button>
+                </li>
+                <li class="menu-buttons__menu-item">
+                    <button type="button">Веб-сайты</button>
+                </li>
+                <li class="menu-buttons__menu-item">
+                    <button type="button">Приложения</button>
+                </li>
+                <li class="menu-buttons__menu-item">
+                    <button type="button">Дизайн</button>
+                </li>
+                <li class="menu-buttons__menu-item">
+                    <button type="button">Маркетинг</button>
+                </li>
+            </ul>
+            <ul class="examples">
+                <li class="item">
+                    <a href="">
+                    <div class="thumb">
+                        <img srcset="
+                            ./images/cards/techwebmob.jpg  450w,
+                            ./images/cards/techwebmobx2.jpg  900w,
+                            ./images/cards/techwebtab.jpg  354w,
+                            ./images/cards/techwebtabx2.png  708w,
+                            ./images/cards/techwebdesk.jpg 270w,
+                            ./images/cards/techwebdeskx2.jpg 540w"
+                            sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 320px) 450px" src="./images/photo1.jpg"
+                            alt="hero-image">
+                     <div class="overlay">
+                        <p>
+                            Ресурс предлагает комплексные<br>предложения с разным уровнем<br>функционала и сервисов. Все это<br>позволит посетителю получить<br>
+                            исчерпывающие сведения<br>о компании или частном лице.
+                        </p>              
+                    </div>
+                    </div>
+                    <div class="item-text">
+                    <h3>Технокряк</h3>
+                    <p>Веб-сайт</p>
+                    </div>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="">
+                    <div class="thumb">
+                    <img srcset="
+                        ./images/cards/postermob.jpg  450w,
+                        ./images/cards/postermobx2.jpg  900w,
+                        ./images/cards/postertab.jpg  354w,
+                        ./images/cards/postertabx2.png  708w,
+                        ./images/cards/posterdesk.jpg 270w,
+                        ./images/cards/posterdeskx2.jpg 540w"
+                        sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 320px) 450px" src="./images/photo1.jpg"
+                        alt="hero-image">
+                    <div class="overlay">
+                        <p>
+                            Ресурс предлагает комплексные<br>предложения с разным уровнем<br>функционала и сервисов. Все это<br>позволит
+                            посетителю получить<br>
+                            исчерпывающие сведения<br>о компании или частном лице.
+                        </p>
+                    </div>
+                    </div>
+                    <div class="item-text">
+                    <h3>Постер New Orlean vs Golden Star</h3>
+                    <p>Дизайн</p>
+                    </div>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="">
+                    <div class="thumb">
+                    <img srcset="
+                        ./images/cards/restmob.jpg  450w,
+                        ./images/cards/restmobx2.jpg  900w,
+                        ./images/cards/resttab.jpg  354w,
+                        ./images/cards/resttabx2.png  708w,
+                        ./images/cards/restdesk.jpg 270w,
+                        ./images/cards/restdeskx2.jpg 540w"
+                        sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 320px) 450px" src="./images/photo1.jpg"
+                        alt="hero-image">
+                    <div class="overlay">
+                        <p>
+                            Ресурс предлагает комплексные<br>предложения с разным уровнем<br>функционала и сервисов. Все это<br>позволит
+                            посетителю получить<br>
+                            исчерпывающие сведения<br>о компании или частном лице.
+                        </p>
+                    </div>
+                    </div>
+                    <div class="item-text">
+                    <h3>Ресторан Seafood</h3>
+                    <p>Приложение</p>
+                    </div>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="">
+                    <div class="thumb">
+                <img srcset="
+                        ./images/cards/primemob.jpg  450w,
+                        ./images/cards/primemobx2.jpg  900w,
+                        ./images/cards/primetab.jpg  354w,
+                        ./images/cards/primetabx2.png  708w,
+                        ./images/cards/primedesk.jpg 270w,
+                        ./images/cards/primedeskx2.jpg 540w"
+                    sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 320px) 450px" src="./images/photo1.jpg"
+                    alt="hero-image">
+                    <div class="overlay">
+                        <p>
+                            Ресурс предлагает комплексные<br>предложения с разным уровнем<br>функционала и сервисов. Все это<br>позволит
+                            посетителю получить<br>
+                            исчерпывающие сведения<br>о компании или частном лице.
+                        </p>
+                    </div>
+                    </div>
+                    <div class="item-text">
+                    <h3>Проект Prime</h3>
+                    <p>Маркетинг</p>
+                    </div>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="">
+                    <div class="thumb">
+                <img srcset="
+                    ./images/cards/boxmob.jpg  450w,
+                    ./images/cards/boxmobx2.jpg  900w,
+                    ./images/cards/boxtab.jpg  354w,
+                    ./images/cards/boxtabx2.png  708w,
+                    ./images/cards/boxdesk.jpg 270w,
+                    ./images/cards/boxdeskx2.jpg 540w"
+                    sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 320px) 450px" src="./images/photo1.jpg"
+                    alt="hero-image">
+                    <div class="overlay">
+                        <p>
+                            Ресурс предлагает комплексные<br>предложения с разным уровнем<br>функционала и сервисов. Все это<br>позволит
+                            посетителю получить<br>
+                            исчерпывающие сведения<br>о компании или частном лице.
+                        </p>
+                    </div>
+                    </div>
+                    <div class="item-text">
+                    <h3>Проект Boxes</h3>
+                    <p>Приложение</p>
+                    </div>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="">
+                    <div class="thumb">
+                <img srcset="
+                    ./images/cards/inspirmob.jpg  450w,
+                    ./images/cards/inspirmobx2.jpg  900w,
+                    ./images/cards/inspirtab.jpg  354w,
+                    ./images/cards/inspirtabx2.png  708w,
+                    ./images/cards/inspirdesk.jpg 270w,
+                    ./images/cardsinspirdeskx2.jpg 540w"
+                    sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 320px) 450px" src="./images/photo1.jpg"
+                    alt="hero-image">
+                    <div class="overlay">
+                        <p>
+                            Ресурс предлагает комплексные<br>предложения с разным уровнем<br>функционала и сервисов. Все это<br>позволит
+                            посетителю получить<br>
+                            исчерпывающие сведения<br>о компании или частном лице.
+                        </p>
+                    </div>
+                    </div>
+                    <div class="item-text">
+                    <h3>Inspiration has no Borders</h3>
+                    <p>Веб-сайт</p>
+                    </div>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="">
+                    <div class="thumb">
+                <img srcset="
+                    ./images/cards/desmob.jpg  450w,
+                    ./images/cards/desmobx2.jpg  900w,
+                    ./images/cards/destab.jpg  354w,
+                    ./images/cards/destabx2.png  708w,
+                    ./images/cards/desdesk.jpg 270w,
+                    ./images/cards/desdeskx2.jpg 540w"
+                    sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 320px) 450px" src="./images/photo1.jpg"
+                    alt="hero-image">
+                    <div class="overlay">
+                        <p>
+                            Ресурс предлагает комплексные<br>предложения с разным уровнем<br>функционала и сервисов. Все это<br>позволит
+                            посетителю получить<br>
+                            исчерпывающие сведения<br>о компании или частном лице.
+                        </p>
+                    </div>
+                    </div>
+                    <div class="item-text">
+                    <h3>Издание Limited Edition</h3>
+                    <p>Дизайн</p>
+                    </div>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="">
+                    <div class="thumb">
+                    <img srcset="
+                        ./images/cards/promob.jpg  450w,
+                        ./images/cards/promobx2.jpg  900w,
+                        ./images/cards/protab.jpg  354w,
+                        ./images/cards/protabx2.png  708w,
+                        ./images/cards/prodesk.jpg 270w,
+                        ./images/cards/prodeskx2.jpg 540w"
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 320px) 450px" src="./images/photo1.jpg"
+                alt="hero-image">
+                    <div class="overlay">
+                        <p>
+                            Ресурс предлагает комплексные<br>предложения с разным уровнем<br>функционала и сервисов. Все это<br>позволит
+                            посетителю получить<br>
+                            исчерпывающие сведения<br>о компании или частном лице.
+                        </p>
+                    </div>
+                    </div>
+                    <div class="item-text">
+                    <h3>Проект LAB</h3>
+                    <p>Маркетинг</p>
+                    </div>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="">
+                    <div class="thumb">
+                        <img srcset="
+                            ./images/cards/notemob.jpg  450w,
+                            ./images/cards/notemobx2.jpg  900w,
+                            ./images/cards/notetab.jpg  354w,
+                            ./images/cards/notetabx2.png  708w,
+                            ./images/cards/notedesk.jpg 270w,
+                            ./images/cards/notedeskx2.jpg 540w"
+                            sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 320px) 450px" src="./images/photo1.jpg"
+                            alt="hero-image">
+                    <div class="overlay">
+                        <p>
+                            Ресурс предлагает комплексные<br>предложения с разным уровнем<br>функционала и сервисов.
+                            Все это<br>позволит
+                            посетителю получить<br>
+                            исчерпывающие сведения<br>о компании или частном лице.
+                        </p>
+                    </div>
+                    </div>
+                    <div class="item-text">
+                    <h3>Growing Business</h3>
+                    <p>Приложение</p>
+                    </div>
+                    </a>
+                </li>
+            </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container foot-container">
+            <div class="tablet">
+                <div class="logo-tablet">
+                    <a class="foot-container__logo" href="/">Web<span class="webfoot">Studio</span></a>
+                    <address class="foot-container__adress">
+                        <ul class="foot-container__contacts">
+                            <li><a class="foot-container__atext" href="https://bit.ly/3pXMvUd" target="_blank"
+                                    rel="noopener noreferrer">г.
+                                    Киев,
+                                    пр-т
+                                    Леси Украинки, 26</a> </li>
+                            <li><a class="link" href="mailto:info@devstudio.com">info@example.com</a> </li>
+                            <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a> </li>
+                        </ul>
+                    </address>
+                </div>
+                <div class="links-container">
+                    <h3>ПРИСОЕДИНЯЙТЕСЬ</h3>
+                    <ul class="links-list">
+                        <li class="links-list__links-item">
+                            <a href="">
+                                <svg width="20" height="20">
+                                    <use href="./images/icons.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="links-list__links-item">
+                            <a href="">
+                                <svg width="20" height="20">
+                                    <use href="./images/icons.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="links-list__links-item">
+                            <a href="">
+                                <svg width="20" height="20">
+                                    <use href="./images/icons.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="links-list__links-item">
+                            <a href="">
+                                <svg width="20" height="20">
+                                    <use href="./images/icons.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="email-form">
+    
+                <h3>ПОДПИШИТЕСЬ НА РАССЫЛКУ</h3>
+                <form class="form">
+                    <input type="email" name="email" id="user-email" placeholder="E-mail">
+                    <button type="submit" class="submit">
+                        <span class="submit__text">Подписаться</span>
+                        <svg width="24" height="24">
+                            <use href="./images/icons.svg#icon-send"></use>
+                        </svg>
+                    </button>
+                </form>
+    
+            </div>
+        </div>
+    
+    
+    </footer>
+    <script src="./js/mobile-menu.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+.banner {
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 118px;
+    padding-bottom: 118px;
+
+    @media (min-width: 1199px) {
+        padding-top: 200px;
+        padding-bottom: 200px;
+        height: 600px;
+    }
+
+    background-image: $imagegradient, url('../images/command.jpg');
+    
+    max-width: 1600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: $footback;
+
+    @media (max-width: 767px) {
+    
+            background-image: $imagegradient,
+                url("../images/hero/hero-mob.jpg");
+        }
+    
+        @media (max-width: 767px) and (min-device-pixel-ratio: 2),
+        (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2),
+        (max-width: 767px) and (min-resolution: 192dpi),
+        (max-width: 767px) and (min-resolution: 2dppx) {
+            background-image: $imagegradient,
+                url("../images/hero-mobx2.jpg");
+        }
+    
+        @media (min-width: 768px) and (max-width: 1199px) {
+            background-image: $imagegradient,
+                url("../images/hero/hero-tablet.jpg");
+        }
+    
+        @media (min-width: 768px) and (max-width: 1199px) and (min-device-pixel-ratio: 2),
+        (min-width: 768px) and (max-width: 1199px) and (-webkit-min-device-pixel-ratio: 2),
+        (min-width: 768px) and (max-width: 1199px) and (min-resolution: 192dpi),
+        (min-width: 768px) and (max-width: 1199px) and (min-resolution: 2dppx) {
+            background-image: $imagegradient,
+                url("../images/hero/hero-tabletx2.jpg");
+        }
+    
+        @media (min-width: 1200px) {
+            height: 600px;
+            padding-top: 200px;
+            padding-bottom: 200px;
+    
+            background-image: $imagegradient,
+                url("../images/hero/hero-desk.jpg");
+        }
+    
+        @media (min-width: 1200px) and (min-device-pixel-ratio: 2),
+        (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2),
+        (min-width: 1200px) and (min-resolution: 192dpi),
+        (min-width: 1200px) and (min-resolution: 2dppx) {
+            background-image: $imagegradient,
+                url("../images/hero/hero-deskx2.jpg");
+        }
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $headback;
+}
+
+
+
+.hero-container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+
+    &__text-logo {
+        @media screen and (min-width:1199px) {
+            font-weight: 900;
+                font-size: 44px;
+                line-height: 1.36;
+                width: 696px;
+        }
+                font-weight: 900;
+                font-size: 26px;
+                line-height: 1.6;
+                text-align: center;
+                letter-spacing: 0.06em;
+                text-transform: uppercase;
+            margin: 0 auto;
+            display: block;
+            width: 360px;
+            margin-bottom: 30px;
+        }
+}
+
