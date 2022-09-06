@@ -220,12 +220,12 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-family: "Raleway";
+  font-family: "Metal Mania";
   font-weight: 700;
   font-size: 24px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  color: #2196F3;
+  color: black;
 }
 @media screen and (min-width: 767px) {
   .head-container__logo {
@@ -428,7 +428,7 @@ img {
   color: #2196F3;
 }
 .menu-container__socials a:focus, .menu-container__socials a:hover {
-  color: #2196F3;
+  color: black;
 }
 
 .navigation-link {
@@ -436,10 +436,10 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navigation-link:focus, .navigation-link:hover {
-  color: #2196F3;
+  color: black;
 }
 .navigation-link--current {
-  color: #2196F3;
+  color: black;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -465,7 +465,7 @@ img {
     width: 100%;
     margin-top: 30px;
     height: 4px;
-    background-color: #2196F3;
+    background-color: black;
     border-radius: 2px;
   }
 }
@@ -504,7 +504,7 @@ img {
   }
 }
 .mail:hover, .mail:focus {
-  stroke: #2196F3;
+  stroke: black;
   stroke-width: 2px;
 }
 
@@ -519,7 +519,7 @@ img {
 
 .mail:hover,
 .mail:focus {
-  color: #2196F3;
+  color: black;
 }
 
 .tel {
@@ -555,13 +555,13 @@ img {
   }
 }
 .tel:hover, .tel:focus {
-  color: #2196F3;
+  color: black;
 }
 
 .tel:hover,
 .tel:focus {
-  fill: #2196F3;
-  stroke: #2196F3;
+  fill: black;
+  stroke: black;
   stroke-width: 2px;
 }
 
@@ -608,7 +608,7 @@ img {
   font-size: 24px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  color: #2196F3;
+  color: black;
 }
 @media screen and (min-width: 767px) {
   .foot-container__logo {
@@ -1159,8 +1159,8 @@ img {
   margin-right: auto;
   padding-top: 118px;
   padding-bottom: 118px;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/command.jpg");
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/command.jpg");
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/banner.webp");
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/banner.webp");
   max-width: 1600px;
   background-size: cover;
   background-position: center;
@@ -1182,26 +1182,26 @@ img {
 }
 @media (max-width: 767px) {
   .banner {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/hero/hero-mob.jpg");
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/hero-mob.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/banner.webp");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/banner.webp");
   }
 }
 @media (max-width: 767px) and (min-device-pixel-ratio: 2), (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 767px) and (min-resolution: 192dpi), (max-width: 767px) and (min-resolution: 2dppx) {
   .banner {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/hero-mobx2.jpg");
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero-mobx2.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/banner.webp");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/banner.webp");
   }
 }
 @media (min-width: 768px) and (max-width: 1199px) {
   .banner {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/hero/hero-tablet.jpg");
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/hero-tablet.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/banner.webp");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/banner.webp");
   }
 }
 @media (min-width: 768px) and (max-width: 1199px) and (min-device-pixel-ratio: 2), (min-width: 768px) and (max-width: 1199px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 768px) and (max-width: 1199px) and (min-resolution: 192dpi), (min-width: 768px) and (max-width: 1199px) and (min-resolution: 2dppx) {
   .banner {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/hero/hero-tabletx2.jpg");
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/hero-tabletx2.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/banner.webp");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/banner.webp");
   }
 }
 @media (min-width: 1200px) {
@@ -1209,14 +1209,14 @@ img {
     height: 600px;
     padding-top: 200px;
     padding-bottom: 200px;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/hero/hero-desk.jpg");
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/hero-desk.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/banner.webp");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/banner.webp");
   }
 }
 @media (min-width: 1200px) and (min-device-pixel-ratio: 2), (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1200px) and (min-resolution: 192dpi), (min-width: 1200px) and (min-resolution: 2dppx) {
   .banner {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/hero/hero-deskx2.jpg");
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/hero-deskx2.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/banner.webp");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/banner.webp");
   }
 }
 
@@ -1226,6 +1226,7 @@ img {
   text-align: center;
 }
 .hero-container__text-logo {
+  font-family: "Metal Mania";
   font-weight: 900;
   font-size: 26px;
   line-height: 1.6;
@@ -1240,6 +1241,7 @@ img {
 @media screen and (min-width: 1199px) {
   .hero-container__text-logo {
     font-weight: 900;
+    font-family: "Metal Mania";
     font-size: 44px;
     line-height: 1.36;
     width: 696px;

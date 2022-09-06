@@ -22,7 +22,7 @@
     @media (max-width: 767px) {
     
             background-image: $imagegradient,
-                url("../images/hero/hero-mob.jpg");
+                url("../images/banner.webp");
         }
     
         @media (max-width: 767px) and (min-device-pixel-ratio: 2),
@@ -30,12 +30,12 @@
         (max-width: 767px) and (min-resolution: 192dpi),
         (max-width: 767px) and (min-resolution: 2dppx) {
             background-image: $imagegradient,
-                url("../images/hero-mobx2.jpg");
+                url("../images/banner.webp");
         }
     
         @media (min-width: 768px) and (max-width: 1199px) {
             background-image: $imagegradient,
-                url("../images/hero/hero-tablet.jpg");
+                url("../images/banner.webp");
         }
     
         @media (min-width: 768px) and (max-width: 1199px) and (min-device-pixel-ratio: 2),
@@ -43,7 +43,7 @@
         (min-width: 768px) and (max-width: 1199px) and (min-resolution: 192dpi),
         (min-width: 768px) and (max-width: 1199px) and (min-resolution: 2dppx) {
             background-image: $imagegradient,
-                url("../images/hero/hero-tabletx2.jpg");
+                url("../images/banner.webp");
         }
     
         @media (min-width: 1200px) {
@@ -52,7 +52,7 @@
             padding-bottom: 200px;
     
             background-image: $imagegradient,
-                url("../images/hero/hero-desk.jpg");
+                url("../images/banner.webp");
         }
     
         @media (min-width: 1200px) and (min-device-pixel-ratio: 2),
@@ -60,7 +60,7 @@
         (min-width: 1200px) and (min-resolution: 192dpi),
         (min-width: 1200px) and (min-resolution: 2dppx) {
             background-image: $imagegradient,
-                url("../images/hero/hero-deskx2.jpg");
+                url("../images/banner.webp");
         }
     font-weight: 900;
     font-size: 44px;
@@ -81,10 +81,12 @@
     &__text-logo {
         @media screen and (min-width:1199px) {
             font-weight: 900;
+            font-family: 'Metal Mania';
                 font-size: 44px;
                 line-height: 1.36;
                 width: 696px;
         }
+                font-family: 'Metal Mania';
                 font-weight: 900;
                 font-size: 26px;
                 line-height: 1.6;
